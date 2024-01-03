@@ -1,0 +1,4 @@
+﻿     Создается библиотека C:\Users\User\Source\Repos\OS-5-2-\x64\Debug\Lab2Tests.lib и объект C:\Users\User\Source\Repos\OS-5-2-\x64\Debug\Lab2Tests.exp
+Lab2Tests.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl min_max(class std::vector<int,class std::allocator<int> > &)" (?min_max@@YAXAEAV?$vector@HV?$allocator@H@std@@@std@@@Z) в функции "public: void __cdecl UnitTest1::TestMinMaxWithEmptyArray(void)" (?TestMinMaxWithEmptyArray@UnitTest1@@QEAAXXZ).
+Lab2Tests.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl average(class std::vector<int,class std::allocator<int> > &)" (?average@@YAXAEAV?$vector@HV?$allocator@H@std@@@std@@@Z) в функции "public: void __cdecl UnitTest1::TestAverageWithEmptyArray(void)" (?TestAverageWithEmptyArray@UnitTest1@@QEAAXXZ).
+C:\Users\User\Source\Repos\OS-5-2-\x64\Debug\Lab2Tests.dll : fatal error LNK1120: неразрешенных внешних элементов: 2

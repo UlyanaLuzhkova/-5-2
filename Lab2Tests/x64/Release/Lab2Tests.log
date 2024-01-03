@@ -1,0 +1,24 @@
+﻿  pch.cpp
+  Lab2Tests.cpp
+C:\Users\User\source\repos\OS-5-2-\Lab2Tests\Lab2Tests.cpp(79,31): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\source\repos\OS-5-2-\Lab2Tests\Lab2Tests.cpp(80,29): warning C4244: инициализация: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\User\source\repos\OS-5-2-\Lab2Tests\Lab2Tests.cpp(94,31): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\User\source\repos\OS-5-2-\Lab2Tests\Lab2Tests.cpp(95,29): warning C4244: инициализация: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\User\source\repos\OS-5-2-\Lab2Tests\Lab2Tests.cpp(120,29): warning C4244: инициализация: преобразование "_Ty" в "float", возможна потеря данных
+          with
+          [
+              _Ty=double
+          ]
+     Создается библиотека C:\Users\User\Source\Repos\OS-5-2-\x64\Release\Lab2Tests.lib и объект C:\Users\User\Source\Repos\OS-5-2-\x64\Release\Lab2Tests.exp
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1127,5): error MSB6006: "link.exe" завершилась с кодом 1120.
+Lab2Tests.obj : error LNK2001: неразрешенный внешний символ "void __cdecl min_max(class std::vector<int,class std::allocator<int> > &)" (?min_max@@YAXAEAV?$vector@HV?$allocator@H@std@@@std@@@Z).
+Lab2Tests.obj : error LNK2001: неразрешенный внешний символ "void __cdecl average(class std::vector<int,class std::allocator<int> > &)" (?average@@YAXAEAV?$vector@HV?$allocator@H@std@@@std@@@Z).
+C:\Users\User\Source\Repos\OS-5-2-\x64\Release\Lab2Tests.dll : fatal error LNK1120: неразрешенных внешних элементов: 2
