@@ -12,7 +12,7 @@ void min_max(vector<int>& arr) {
     int min_value = *min_element(arr.begin(), arr.end());
     this_thread::sleep_for(chrono::milliseconds(7)); // добавляем задержку
     int max_value = *max_element(arr.begin(), arr.end());
-    this_thread::sleep_for(chrono::milliseconds(7)); // добавляем задержку
+    this_thread::sleep_for(chrono::milliseconds(7)); // добавляем зад
     cout << "Minimum value: " << min_value << endl;
     cout << "Maximum value: " << max_value << endl;
 }
